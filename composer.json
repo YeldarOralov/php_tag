@@ -1,0 +1,19 @@
+{
+    "name": "YeldarOralov/composer",
+    "description": "",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "rayex",
+        "email": "eldar.oralov@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Step\\": "./app"
+        }
+    }
+}
